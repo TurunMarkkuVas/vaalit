@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turun Markku</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            background: url('path-to-your-image.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        h2 {
+            font-size: 2em;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Turun Markku</h1>
+        <h2>Hyvien puolella</h2>
+    </div>
+</body>
+</html>
